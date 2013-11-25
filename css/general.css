@@ -1,0 +1,78 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing:border-box;
+	padding: 0.2em;
+}
+
+html {
+	
+	
+	background-color:#B29EC1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+}
+
+body {
+	margin 5px;
+}
+
+h1 {
+	font-size: 3em;
+	text-align:center;
+	color:#FBF8F8;
+}
+.img {
+	display: block;
+	margin: auto;
+}
+
+form {
+	font-size: 1em;
+}
+
+label {
+	display:block;
+	cursor: pointer;
+}
+
+input + label {
+	display: inline;
+}
+
+input {
+ font-size:1.5rem;	
+ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+input[type="radio"],
+input[type="checkbox"]{
+	cursor::pointer;
+}
+
+.input-text {
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	background-image: linear-gradient(to bottom, #efefef, #fff);
+	border-radius: 2px;
+	width: 100%;
+	margin: 4px;
+	margin-left: 2px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+textarea {
+	max-width: 100%;
+	hieght: 7em;
+}
+
+button {
+	padding: 0.5em;
+	font-size:1.125rem;
+	background-color:#fff;
+	color:#B29EC1;
+	cursor: pointer;
+	margin: 2% 0 0 0;
+}
+.input-error {
+	border: 3px solid #f33;
+}
