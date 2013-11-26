@@ -11,7 +11,7 @@ html {
 	
 	background-color:#B29EC1;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-
+	
 }
 
 body {
@@ -22,6 +22,7 @@ h1 {
 	font-size: 3em;
 	text-align:center;
 	color:#FBF8F8;
+	margin-top: 0;
 }
 .img {
 	display: block;
@@ -76,4 +77,22 @@ button {
 }
 .input-error {
 	border: 3px solid #f33;
+}
+
+@media only screen and (min-width: 35em) {
+
+html {
+	padding-left: 4em;
+	padding-right: 4em;
+
+}
+}
+
+@media only screen and (min-width: 60em) {
+html {
+	padding-left: 8em;
+	padding-right: 8em;
+
+}	
+	
 }
